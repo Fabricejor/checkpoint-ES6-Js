@@ -10,3 +10,4 @@ function narcissistic(value) {
 
 let value = 10;
 console.log(narcissistic(value)) ;
+//map filter  join  reduce split reduce 
