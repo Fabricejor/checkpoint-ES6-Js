@@ -1,0 +1,19 @@
+splice     => Tableau.splice( indice de l'elt , numbre d'element a supprimer a partir de l'indice)
+splice( indice , nombre d'element , element) => ajoute un element Si le 3e parametre n'est pas specifier il supprime
+indexOF => Tableau.IndexOf(element) renvoie la position de l'elt dans le tableau
+parseInt => convertis en entier  mais parseInt( element ,  typede Base ) => convertis l'element en type de base
+join() crée et renvoie une nouvelle chaîne de caractères en concaténant tous les éléments d'un tableau 
+
+arr.slice();
+arr.slice(début);
+arr.slice(début, fin); slice renvoie une copie du tableau
+
+reduce() applique une fonction qui est un « accumulateur » et qui traite chaque valeur d'une liste (de la gauche vers la droite) afin de la réduire à une seule valeur.
+arr.reduce(callback);
+arr.reduce(callback, valeurInitiale);
+
+split() divise une chaîne de caractères en une liste ordonnée de sous-chaînes, place ces sous-chaînes dans un tableau et retourne le tableau.
+
+str.split([separator[, limit]])
+
+méthode map() crée un nouveau tableau avec les résultats de l'appel d'une fonction fournie sur chaque élément du tableau appelant.
